@@ -1,9 +1,13 @@
 ---
 title: 关于flex与grid的理解
 date: 2019-04-21 18:03:03
-tags: [总结,前端技术]
+categories: 
+	- css
+    - 技术总结
+tags: 
+    - css
+    - 技术总结
 ---
-
 # flex
 
 整体知识来源于[阮一峰的博客](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
