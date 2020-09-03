@@ -6,3 +6,5 @@ node_modules/
 public/
 themes/
 .deploy*/
+source/_posts/
+.env_temp
