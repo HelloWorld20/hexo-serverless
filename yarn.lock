@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/color-name@^1.1.1":
-  version "1.1.1"
-  resolved "http://npm.tuzhanai.com/@types%2fcolor-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
-  integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
-
 JSONStream@^1.0.7:
   version "1.3.5"
   resolved "http://npm.tuzhanai.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
@@ -20,7 +15,7 @@ a-sync-waterfall@^1.0.0:
   resolved "http://npm.tuzhanai.com/a-sync-waterfall/-/a-sync-waterfall-1.0.1.tgz#75b6b6aa72598b497a125e7a2770f14f4c8a1fa7"
   integrity sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==
 
-abbrev@1, abbrev@^1.1.1:
+abbrev@^1.1.1:
   version "1.1.1"
   resolved "http://npm.tuzhanai.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
@@ -32,20 +27,6 @@ accepts@~1.3.5:
   dependencies:
     mime-types "~2.1.24"
     negotiator "0.6.2"
-
-acorn@^7.0.0:
-  version "7.1.1"
-  resolved "http://npm.tuzhanai.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
-  integrity sha1-41Zo3gtALzWd5RXFSCoaufiaab8=
-
-align-text@^0.1.1, align-text@^0.1.3:
-  version "0.1.4"
-  resolved "http://npm.tuzhanai.com/align-text/-/align-text-0.1.4.tgz#0cd90a561093f35d0a99256c22b7069433fad117"
-  integrity sha1-DNkKVhCT810KmSVsIrcGlDP60Rc=
-  dependencies:
-    kind-of "^3.0.2"
-    longest "^1.0.1"
-    repeat-string "^1.5.2"
 
 amdefine@>=0.0.4:
   version "1.0.1"
@@ -65,17 +46,16 @@ ansi-styles@^3.2.1:
     color-convert "^1.9.0"
 
 ansi-styles@^4.1.0:
-  version "4.2.1"
-  resolved "http://npm.tuzhanai.com/ansi-styles/-/ansi-styles-4.2.1.tgz#90ae75c424d008d2624c5bf29ead3177ebfcf359"
-  integrity sha1-kK51xCTQCNJiTFvynq0xd+v881k=
+  version "4.3.0"
+  resolved "http://npm.tuzhanai.com/ansi-styles/-/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
+  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
   dependencies:
-    "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
 anymatch@~3.1.1:
-  version "3.1.1"
-  resolved "http://npm.tuzhanai.com/anymatch/-/anymatch-3.1.1.tgz#c55ecf02185e2469259399310c173ce31233b142"
-  integrity sha1-xV7PAhheJGklk5kxDBc84xIzsUI=
+  version "3.1.2"
+  resolved "http://npm.tuzhanai.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
+  integrity sha1-wFV8CWrzLxBhmPT04qODU343hxY=
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
@@ -92,15 +72,15 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "http://npm.tuzhanai.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
+
 asap@^2.0.3:
   version "2.0.6"
   resolved "http://npm.tuzhanai.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
-
-async@~0.2.6:
-  version "0.2.10"
-  resolved "http://npm.tuzhanai.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
-  integrity sha1-trvgsGdLnXGXCMo43owjfLUmw9E=
 
 atob@^2.1.2:
   version "2.1.2"
@@ -120,9 +100,9 @@ basic-auth@~2.0.1:
     safe-buffer "5.1.2"
 
 binary-extensions@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
-  integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+  version "2.2.0"
+  resolved "http://npm.tuzhanai.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
+  integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
 
 bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.2"
@@ -158,27 +138,14 @@ camel-case@^3.0.0:
     upper-case "^1.1.1"
 
 camel-case@^4.0.0:
-  version "4.1.1"
-  resolved "http://npm.tuzhanai.com/camel-case/-/camel-case-4.1.1.tgz#1fc41c854f00e2f7d0139dfeba1542d6896fe547"
-  integrity sha1-H8QchU8A4vfQE53+uhVC1olv5Uc=
+  version "4.1.2"
+  resolved "http://npm.tuzhanai.com/camel-case/-/camel-case-4.1.2.tgz#9728072a954f805228225a6deea6b38461e1bd5a"
+  integrity sha1-lygHKpVPgFIoIlpt7qazhGHhvVo=
   dependencies:
-    pascal-case "^3.1.1"
-    tslib "^1.10.0"
+    pascal-case "^3.1.2"
+    tslib "^2.0.3"
 
-camelcase@^1.0.2:
-  version "1.2.1"
-  resolved "http://npm.tuzhanai.com/camelcase/-/camelcase-1.2.1.tgz#9bb5304d2e0b56698b2c758b08a3eaa9daa58a39"
-  integrity sha1-m7UwTS4LVmmLLHWLCKPqqdqlijk=
-
-center-align@^0.1.1:
-  version "0.1.3"
-  resolved "http://npm.tuzhanai.com/center-align/-/center-align-0.1.3.tgz#aa0d32629b6ee972200411cbd4461c907bc2b7ad"
-  integrity sha1-qg0yYptu6XIgBBHL1EYckHvCt60=
-  dependencies:
-    align-text "^0.1.3"
-    lazy-cache "^1.0.3"
-
-chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.4.2:
   version "2.4.2"
   resolved "http://npm.tuzhanai.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -187,18 +154,18 @@ chalk@^2.4.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^3.0.0:
-  version "3.0.0"
-  resolved "http://npm.tuzhanai.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
-  integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
+chalk@^4.0.0:
+  version "4.1.0"
+  resolved "http://npm.tuzhanai.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@^3.0.0, chokidar@^3.3.0:
-  version "3.3.1"
-  resolved "http://npm.tuzhanai.com/chokidar/-/chokidar-3.3.1.tgz#c84e5b3d18d9a4d77558fef466b1bf16bbeb3450"
-  integrity sha1-yE5bPRjZpNd1WP70ZrG/FrvrNFA=
+chokidar@^3.0.0:
+  version "3.5.1"
+  resolved "http://npm.tuzhanai.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
+  integrity sha1-7pznu+vSt59J8wR5nVRo4x4U5oo=
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -206,27 +173,18 @@ chokidar@^3.0.0, chokidar@^3.3.0:
     is-binary-path "~2.1.0"
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
-    readdirp "~3.3.0"
+    readdirp "~3.5.0"
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 clipboard@^2.0.0:
-  version "2.0.6"
-  resolved "http://npm.tuzhanai.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
-  integrity sha1-UpISlu7A/fd+rRdJQhshyWhkc3Y=
+  version "2.0.8"
+  resolved "http://npm.tuzhanai.com/clipboard/-/clipboard-2.0.8.tgz#ffc6c103dd2967a83005f3f61976aa4655a4cdba"
+  integrity sha1-/8bBA90pZ6gwBfP2GXaqRlWkzbo=
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
     tiny-emitter "^2.0.0"
-
-cliui@^2.1.0:
-  version "2.1.0"
-  resolved "http://npm.tuzhanai.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
-  integrity sha1-S0dXYP+AJkx2LDoXGQMukcf+oNE=
-  dependencies:
-    center-align "^0.1.1"
-    right-align "^0.1.1"
-    wordwrap "0.0.2"
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -257,10 +215,10 @@ command-exists@^1.2.8:
   resolved "http://npm.tuzhanai.com/command-exists/-/command-exists-1.2.9.tgz#c50725af3808c8ab0260fd60b01fbfa25b954f69"
   integrity sha1-xQclrzgIyKsCYP1gsB+/oluVT2k=
 
-commander@^3.0.2:
-  version "3.0.2"
-  resolved "http://npm.tuzhanai.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
-  integrity sha1-aDfD+2d62ZM9HPukLdFNURfWs54=
+commander@^5.1.0:
+  version "5.1.0"
+  resolved "http://npm.tuzhanai.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
+  integrity sha1-Rqu9FlL44Fm92u+Zu9yyrZzxea4=
 
 compressible@~2.0.16:
   version "2.0.18"
@@ -309,9 +267,9 @@ cross-spawn@^6.0.5:
     which "^1.2.9"
 
 cross-spawn@^7.0.0:
-  version "7.0.2"
-  resolved "http://npm.tuzhanai.com/cross-spawn/-/cross-spawn-7.0.2.tgz#d0d7dcfa74e89115c7619f4f721a94e1fdb716d6"
-  integrity sha1-0Nfc+nTokRXHYZ9PchqU4f23FtY=
+  version "7.0.3"
+  resolved "http://npm.tuzhanai.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
+  integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -365,11 +323,6 @@ debug@~3.1.0:
   dependencies:
     ms "2.0.0"
 
-decamelize@^1.0.0:
-  version "1.2.0"
-  resolved "http://npm.tuzhanai.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
-  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
-
 decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "http://npm.tuzhanai.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
@@ -400,34 +353,42 @@ destroy@~1.0.4:
   resolved "http://npm.tuzhanai.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-dom-serializer@^0.2.1:
-  version "0.2.2"
-  resolved "http://npm.tuzhanai.com/dom-serializer/-/dom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
-  integrity sha1-GvuB9TNxcXXUeGVd68XjMtn5u1E=
+dom-serializer@^1.0.1:
+  version "1.3.1"
+  resolved "http://npm.tuzhanai.com/dom-serializer/-/dom-serializer-1.3.1.tgz#d845a1565d7c041a95e5dab62184ab41e3a519be"
+  integrity sha1-2EWhVl18BBqV5dq2IYSrQeOlGb4=
   dependencies:
     domelementtype "^2.0.1"
+    domhandler "^4.0.0"
     entities "^2.0.0"
 
-domelementtype@^2.0.1:
-  version "2.0.1"
-  resolved "http://npm.tuzhanai.com/domelementtype/-/domelementtype-2.0.1.tgz#1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
-  integrity sha1-H4vf6R9aeAYydOgDtL3O326U+U0=
+domelementtype@^2.0.1, domelementtype@^2.2.0:
+  version "2.2.0"
+  resolved "http://npm.tuzhanai.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
+  integrity sha1-mgtsJ4LtahxzI9QiZxg9+b2LHVc=
 
 domhandler@^3.0.0:
-  version "3.0.0"
-  resolved "http://npm.tuzhanai.com/domhandler/-/domhandler-3.0.0.tgz#51cd13efca31da95bbb0c5bee3a48300e333b3e9"
-  integrity sha1-Uc0T78ox2pW7sMW+46SDAOMzs+k=
+  version "3.3.0"
+  resolved "http://npm.tuzhanai.com/domhandler/-/domhandler-3.3.0.tgz#6db7ea46e4617eb15cf875df68b2b8524ce0037a"
+  integrity sha1-bbfqRuRhfrFc+HXfaLK4UkzgA3o=
   dependencies:
     domelementtype "^2.0.1"
 
-domutils@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/domutils/-/domutils-2.0.0.tgz#15b8278e37bfa8468d157478c58c367718133c08"
-  integrity sha1-Fbgnjje/qEaNFXR4xYw2dxgTPAg=
+domhandler@^4.0.0, domhandler@^4.2.0:
+  version "4.2.0"
+  resolved "http://npm.tuzhanai.com/domhandler/-/domhandler-4.2.0.tgz#f9768a5f034be60a89a27c2e4d0f74eba0d8b059"
+  integrity sha1-+XaKXwNL5gqJonwuTQ9066DYsFk=
   dependencies:
-    dom-serializer "^0.2.1"
-    domelementtype "^2.0.1"
-    domhandler "^3.0.0"
+    domelementtype "^2.2.0"
+
+domutils@^2.0.0:
+  version "2.6.0"
+  resolved "http://npm.tuzhanai.com/domutils/-/domutils-2.6.0.tgz#2e15c04185d43fb16ae7057cb76433c6edb938b7"
+  integrity sha1-LhXAQYXUP7Fq5wV8t2Qzxu25OLc=
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.2.0"
+    domhandler "^4.2.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -445,9 +406,9 @@ encodeurl@~1.0.2:
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
 entities@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/entities/-/entities-2.0.0.tgz#68d6084cab1b079767540d80e56a39b423e4abf4"
-  integrity sha1-aNYITKsbB5dnVA2A5Wo5tCPkq/Q=
+  version "2.2.0"
+  resolved "http://npm.tuzhanai.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
+  integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -458,11 +419,6 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://npm.tuzhanai.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-
-escape-string-regexp@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
-  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
 esprima@^4.0.0:
   version "4.0.1"
@@ -504,15 +460,20 @@ fs.realpath@^1.0.0:
   resolved "http://npm.tuzhanai.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fsevents@~2.1.2:
-  version "2.1.2"
-  resolved "http://npm.tuzhanai.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
-  integrity sha1-TAofs0vGjlQ7S4Kp7Dkr+9qECAU=
+fsevents@~2.3.1:
+  version "2.3.2"
+  resolved "http://npm.tuzhanai.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
+
+function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "http://npm.tuzhanai.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+  integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
 glob-parent@~5.1.0:
-  version "5.1.1"
-  resolved "http://npm.tuzhanai.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
-  integrity sha1-tsHvQXxOVmPqSY8cRa+saRa7wik=
+  version "5.1.2"
+  resolved "http://npm.tuzhanai.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=
   dependencies:
     is-glob "^4.0.1"
 
@@ -525,17 +486,6 @@ glob@7.0.x:
     inflight "^1.0.4"
     inherits "2"
     minimatch "^3.0.2"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-glob@^6.0.1:
-  version "6.0.4"
-  resolved "http://npm.tuzhanai.com/glob/-/glob-6.0.4.tgz#0f08860f6a155127b2fadd4f9ce24b1aab6e4d22"
-  integrity sha1-DwiGD2oVUSey+t1PnOJLGqtuTSI=
-  dependencies:
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "2 || 3"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -559,9 +509,9 @@ good-listener@^1.2.2:
     delegate "^3.1.2"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.3:
-  version "4.2.3"
-  resolved "http://npm.tuzhanai.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
-  integrity sha1-ShL/G2A3bvCYYsIJPt2Qgyi+hCM=
+  version "4.2.6"
+  resolved "http://npm.tuzhanai.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
+  integrity sha1-/wQLKwhTsjw9MQJ1I3BvGIXXa+4=
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -573,48 +523,45 @@ has-flag@^4.0.0:
   resolved "http://npm.tuzhanai.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
-hexo-bunyan@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/hexo-bunyan/-/hexo-bunyan-2.0.0.tgz#020d7a51104cc7fe50df9005020c359ac504309e"
-  integrity sha1-Ag16URBMx/5Q35AFAgw1msUEMJ4=
-  optionalDependencies:
-    moment "^2.10.6"
-    mv "~2"
-    safe-json-stringify "~1"
+has@^1.0.3:
+  version "1.0.3"
+  resolved "http://npm.tuzhanai.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
+  integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
+  dependencies:
+    function-bind "^1.1.1"
 
-hexo-cli@^3.0.0:
-  version "3.1.0"
-  resolved "http://npm.tuzhanai.com/hexo-cli/-/hexo-cli-3.1.0.tgz#a7414d4647333fe73762f86d77e5660659c0d05b"
-  integrity sha1-p0FNRkczP+c3Yvhtd+VmBlnA0Fs=
+hexo-cli@^4.0.0:
+  version "4.2.0"
+  resolved "http://npm.tuzhanai.com/hexo-cli/-/hexo-cli-4.2.0.tgz#74647bc72a90b9cebf04af5bc70839ab281a305d"
+  integrity sha1-dGR7xyqQuc6/BK9bxwg5qygaMF0=
   dependencies:
     abbrev "^1.1.1"
-    acorn "^7.0.0"
     bluebird "^3.5.5"
-    chalk "^2.4.2"
+    chalk "^4.0.0"
     command-exists "^1.2.8"
-    hexo-fs "^2.0.0"
-    hexo-log "^1.0.0"
-    hexo-util "^1.4.0"
-    minimist "^1.2.0"
+    hexo-fs "^3.0.1"
+    hexo-log "^2.0.0"
+    hexo-util "^2.0.0"
+    minimist "^1.2.5"
     resolve "^1.11.0"
     tildify "^2.0.0"
 
-hexo-front-matter@^1.0.0:
-  version "1.0.0"
-  resolved "http://npm.tuzhanai.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
-  integrity sha1-C0ixwe0UPoyyWzsiOpA3OF2RBlU=
+hexo-front-matter@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.tuzhanai.com/hexo-front-matter/-/hexo-front-matter-2.0.0.tgz#03f39a9eedb16c5448dbb3bec7dff2c4e224006c"
+  integrity sha1-A/Oanu2xbFRI27O+x9/yxOIkAGw=
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-fs@^2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/hexo-fs/-/hexo-fs-2.0.0.tgz#0bc421bc0c975a85a25061aca9537fb59292d279"
-  integrity sha1-C8QhvAyXWoWiUGGsqVN/tZKS0nk=
+hexo-fs@^3.0.1, hexo-fs@^3.1.0:
+  version "3.1.0"
+  resolved "http://npm.tuzhanai.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
+  integrity sha1-IFL/csaM2ixXeoeqDqeYCuUD+pk=
   dependencies:
     bluebird "^3.5.1"
     chokidar "^3.0.0"
-    escape-string-regexp "^2.0.0"
     graceful-fs "^4.1.11"
+    hexo-util "^2.0.0"
 
 hexo-generator-archive@^1.0.0:
   version "1.0.0"
@@ -637,6 +584,13 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
+hexo-generator-searchdb@^1.3.0:
+  version "1.3.3"
+  resolved "http://npm.tuzhanai.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.3.3.tgz#48d585c9e2e232cd5f875e9b3bc5442e8525d86e"
+  integrity sha1-SNWFyeLiMs1fh16bO8VELoUl2G4=
+  dependencies:
+    nunjucks "^3.2.2"
+
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
   resolved "http://npm.tuzhanai.com/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
@@ -651,13 +605,12 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-log@^1.0.0:
-  version "1.0.0"
-  resolved "http://npm.tuzhanai.com/hexo-log/-/hexo-log-1.0.0.tgz#6f0d39e0e9e76b04a4617b242c3e101d5c4283c7"
-  integrity sha1-bw054OnnawSkYXskLD4QHVxCg8c=
+hexo-log@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.tuzhanai.com/hexo-log/-/hexo-log-2.0.0.tgz#1dcc8e960029b08b21994fe2c56c4e3d6346e893"
+  integrity sha1-HcyOlgApsIshmU/ixWxOPWNG6JM=
   dependencies:
-    chalk "^2.4.1"
-    hexo-bunyan "^2.0.0"
+    chalk "^4.0.0"
 
 hexo-pagination@1.0.0:
   version "1.0.0"
@@ -714,53 +667,53 @@ hexo-util@1.0.0:
     html-entities "^1.2.1"
     striptags "^3.1.1"
 
-hexo-util@^1.4.0, hexo-util@^1.8.0:
-  version "1.9.0"
-  resolved "http://npm.tuzhanai.com/hexo-util/-/hexo-util-1.9.0.tgz#0018429319720599253b2a3ddde0c5e4e4cfc652"
-  integrity sha1-ABhCkxlyBZklOyo93eDF5OTPxlI=
+hexo-util@^2.0.0, hexo-util@^2.4.0:
+  version "2.4.0"
+  resolved "http://npm.tuzhanai.com/hexo-util/-/hexo-util-2.4.0.tgz#f5c0099a0a1718b3ad27061e5e4d1fb9eb7f2b41"
+  integrity sha1-9cAJmgoXGLOtJwYeXk0fuet/K0E=
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
     cross-spawn "^7.0.0"
     deepmerge "^4.2.2"
-    highlight.js "^9.13.1"
+    highlight.js "^10.0.0"
     htmlparser2 "^4.0.0"
     prismjs "^1.17.1"
-    punycode.js "^2.1.0"
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@^4.0.0:
-  version "4.2.0"
-  resolved "http://npm.tuzhanai.com/hexo/-/hexo-4.2.0.tgz#dd306abe801ca47623cae7c86818af4425b466ec"
-  integrity sha1-3TBqvoAcpHYjyufIaBivRCW0Zuw=
+hexo@^5.4.0:
+  version "5.4.0"
+  resolved "http://npm.tuzhanai.com/hexo/-/hexo-5.4.0.tgz#77d57fa1c29f3ab05964fe4ebd9c44e23df51b37"
+  integrity sha1-d9V/ocKfOrBZZP5OvZxE4j31Gzc=
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
     bluebird "^3.5.2"
-    chalk "^3.0.0"
-    hexo-cli "^3.0.0"
-    hexo-front-matter "^1.0.0"
-    hexo-fs "^2.0.0"
+    chalk "^4.0.0"
+    hexo-cli "^4.0.0"
+    hexo-front-matter "^2.0.0"
+    hexo-fs "^3.1.0"
     hexo-i18n "^1.0.0"
-    hexo-log "^1.0.0"
-    hexo-util "^1.8.0"
-    js-yaml "^3.12.0"
-    lodash "^4.17.11"
+    hexo-log "^2.0.0"
+    hexo-util "^2.4.0"
+    js-yaml "^4.0.0"
     micromatch "^4.0.2"
     moment "^2.22.2"
     moment-timezone "^0.5.21"
-    nunjucks "^3.1.3"
+    nunjucks "^3.2.1"
     pretty-hrtime "^1.0.3"
     resolve "^1.8.1"
     strip-ansi "^6.0.0"
-    strip-indent "^3.0.0"
-    swig-extras "0.0.1"
-    swig-templates "^2.0.3"
     text-table "^0.2.0"
     tildify "^2.0.0"
     titlecase "^1.1.2"
-    warehouse "^3.0.1"
+    warehouse "^4.0.0"
+
+highlight.js@^10.0.0:
+  version "10.7.2"
+  resolved "http://npm.tuzhanai.com/highlight.js/-/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
+  integrity sha1-iTGbhh7cZsSIVO0ebaIeqJ+Ec2A=
 
 highlight.js@^9.13.1:
   version "9.18.1"
@@ -813,10 +766,12 @@ is-binary-path@~2.1.0:
   dependencies:
     binary-extensions "^2.0.0"
 
-is-buffer@^1.1.5:
-  version "1.1.6"
-  resolved "http://npm.tuzhanai.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
-  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+is-core-module@^2.2.0:
+  version "2.2.0"
+  resolved "http://npm.tuzhanai.com/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
+  integrity sha1-lwN+89UiJNhRY/VZeytj2a/tmBo=
+  dependencies:
+    has "^1.0.3"
 
 is-extglob@^2.1.1:
   version "2.1.1"
@@ -836,11 +791,9 @@ is-number@^7.0.0:
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
 is-plain-object@^3.0.0:
-  version "3.0.0"
-  resolved "http://npm.tuzhanai.com/is-plain-object/-/is-plain-object-3.0.0.tgz#47bfc5da1b5d50d64110806c199359482e75a928"
-  integrity sha512-tZIpofR+P05k8Aocp7UI/2UTa9lTJSebCXpFFoR9aibpokDj/uXBsJ8luUu0tTVYKkMU6URDUuOfJZ7koewXvg==
-  dependencies:
-    isobject "^4.0.0"
+  version "3.0.1"
+  resolved "http://npm.tuzhanai.com/is-plain-object/-/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
+  integrity sha1-Zi2S0kwKpDAkB7DUXSHyJRyF+Fs=
 
 is-wsl@^1.1.0:
   version "1.1.0"
@@ -852,64 +805,37 @@ isexe@^2.0.0:
   resolved "http://npm.tuzhanai.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-isobject@^4.0.0:
-  version "4.0.0"
-  resolved "http://npm.tuzhanai.com/isobject/-/isobject-4.0.0.tgz#3f1c9155e73b192022a80819bacd0343711697b0"
-  integrity sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==
-
-js-yaml@^3.12.0, js-yaml@^3.13.1:
-  version "3.13.1"
-  resolved "http://npm.tuzhanai.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
-  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
+js-yaml@^3.13.1:
+  version "3.14.1"
+  resolved "http://npm.tuzhanai.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc=
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+js-yaml@^4.0.0:
+  version "4.1.0"
+  resolved "http://npm.tuzhanai.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha1-wftl+PUBeQHN0slRhkuhhFihBgI=
+  dependencies:
+    argparse "^2.0.1"
 
 jsonparse@^1.2.0:
   version "1.3.1"
   resolved "http://npm.tuzhanai.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-kind-of@^3.0.2:
-  version "3.2.2"
-  resolved "http://npm.tuzhanai.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
-  integrity sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
-  dependencies:
-    is-buffer "^1.1.5"
-
-lazy-cache@^1.0.3:
-  version "1.0.4"
-  resolved "http://npm.tuzhanai.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
-  integrity sha1-odePw6UEdMuAhF07O24dpJpEbo4=
-
-lodash@^4.17.11:
-  version "4.17.15"
-  resolved "http://npm.tuzhanai.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
-
-longest@^1.0.1:
-  version "1.0.1"
-  resolved "http://npm.tuzhanai.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
-  integrity sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc=
-
 lower-case@^1.1.1:
   version "1.1.4"
   resolved "http://npm.tuzhanai.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
-lower-case@^2.0.1:
-  version "2.0.1"
-  resolved "http://npm.tuzhanai.com/lower-case/-/lower-case-2.0.1.tgz#39eeb36e396115cc05e29422eaea9e692c9408c7"
-  integrity sha1-Oe6zbjlhFcwF4pQi6uqeaSyUCMc=
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "http://npm.tuzhanai.com/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
+  integrity sha1-b6I3xj29xKgsoP2ILkci3F5jTig=
   dependencies:
-    tslib "^1.10.0"
-
-markdown@~0.5.0:
-  version "0.5.0"
-  resolved "http://npm.tuzhanai.com/markdown/-/markdown-0.5.0.tgz#28205b565a8ae7592de207463d6637dc182722b2"
-  integrity sha1-KCBbVlqK51kt4gdGPWY33BgnIrI=
-  dependencies:
-    nopt "~2.1.1"
+    tslib "^2.0.3"
 
 marked@^0.7.0:
   version "0.7.0"
@@ -917,12 +843,12 @@ marked@^0.7.0:
   integrity sha1-tkIB8FHScbHtwQoE0a6bdLuOXA4=
 
 micromatch@^4.0.2:
-  version "4.0.2"
-  resolved "http://npm.tuzhanai.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
-  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==
+  version "4.0.4"
+  resolved "http://npm.tuzhanai.com/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
+  integrity sha1-iW1Rnf6dsl/OlM63pQCRm/iB6/k=
   dependencies:
     braces "^3.0.1"
-    picomatch "^2.0.5"
+    picomatch "^2.2.3"
 
 mime-db@1.43.0, "mime-db@>= 1.43.0 < 2":
   version "1.43.0"
@@ -951,24 +877,19 @@ min-indent@^1.0.0:
   resolved "http://npm.tuzhanai.com/min-indent/-/min-indent-1.0.0.tgz#cfc45c37e9ec0d8f0a0ec3dd4ef7f7c3abe39256"
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
-"minimatch@2 || 3", minimatch@^3.0.2, minimatch@^3.0.4:
+minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
   resolved "http://npm.tuzhanai.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0, minimist@^1.2.5:
+minimist@^1.2.5:
   version "1.2.5"
   resolved "http://npm.tuzhanai.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "http://npm.tuzhanai.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
-
-mkdirp@0.5.x, mkdirp@~0.5.1, mkdirp@~0.5.x:
+mkdirp@0.5.x, mkdirp@~0.5.x:
   version "0.5.5"
   resolved "http://npm.tuzhanai.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
@@ -976,16 +897,16 @@ mkdirp@0.5.x, mkdirp@~0.5.1, mkdirp@~0.5.x:
     minimist "^1.2.5"
 
 moment-timezone@^0.5.21:
-  version "0.5.28"
-  resolved "http://npm.tuzhanai.com/moment-timezone/-/moment-timezone-0.5.28.tgz#f093d789d091ed7b055d82aa81a82467f72e4338"
-  integrity sha1-8JPXidCR7XsFXYKqgagkZ/cuQzg=
+  version "0.5.33"
+  resolved "http://npm.tuzhanai.com/moment-timezone/-/moment-timezone-0.5.33.tgz#b252fd6bb57f341c9b59a5ab61a8e51a73bbd22c"
+  integrity sha1-slL9a7V/NBybWaWrYajlGnO70iw=
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
-  version "2.24.0"
-  resolved "http://npm.tuzhanai.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+"moment@>= 2.9.0", moment@^2.22.2:
+  version "2.29.1"
+  resolved "http://npm.tuzhanai.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -1013,20 +934,6 @@ ms@^2.1.1:
   resolved "http://npm.tuzhanai.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
 
-mv@~2:
-  version "2.1.1"
-  resolved "http://npm.tuzhanai.com/mv/-/mv-2.1.1.tgz#ae6ce0d6f6d5e0a4f7d893798d03c1ea9559b6a2"
-  integrity sha1-rmzg1vbV4KT32JN5jQPB6pVZtqI=
-  dependencies:
-    mkdirp "~0.5.1"
-    ncp "~2.0.0"
-    rimraf "~2.4.0"
-
-ncp@~2.0.0:
-  version "2.0.0"
-  resolved "http://npm.tuzhanai.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
-  integrity sha1-GVoh1sRuNh0vsSgbo4uR6d9727M=
-
 negotiator@0.6.2:
   version "0.6.2"
   resolved "http://npm.tuzhanai.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
@@ -1051,36 +958,27 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-no-case@^3.0.3:
-  version "3.0.3"
-  resolved "http://npm.tuzhanai.com/no-case/-/no-case-3.0.3.tgz#c21b434c1ffe48b39087e86cfb4d2582e9df18f8"
-  integrity sha1-whtDTB/+SLOQh+hs+00lgunfGPg=
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "http://npm.tuzhanai.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
+  integrity sha1-02H9XJgA9VhVGoNp/A3NRmK2Ek0=
   dependencies:
-    lower-case "^2.0.1"
-    tslib "^1.10.0"
-
-nopt@~2.1.1:
-  version "2.1.2"
-  resolved "http://npm.tuzhanai.com/nopt/-/nopt-2.1.2.tgz#6cccd977b80132a07731d6e8ce58c2c8303cf9af"
-  integrity sha1-bMzZd7gBMqB3MdbozljCyDA8+a8=
-  dependencies:
-    abbrev "1"
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "http://npm.tuzhanai.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nunjucks@^3.1.3:
-  version "3.2.1"
-  resolved "http://npm.tuzhanai.com/nunjucks/-/nunjucks-3.2.1.tgz#f229539281e92c6ad25d8c578c9bdb41655caf83"
-  integrity sha1-8ilTkoHpLGrSXYxXjJvbQWVcr4M=
+nunjucks@^3.2.1, nunjucks@^3.2.2:
+  version "3.2.3"
+  resolved "http://npm.tuzhanai.com/nunjucks/-/nunjucks-3.2.3.tgz#1b33615247290e94e28263b5d855ece765648a31"
+  integrity sha1-GzNhUkcpDpTigmO12FXs52VkijE=
   dependencies:
     a-sync-waterfall "^1.0.0"
     asap "^2.0.3"
-    commander "^3.0.2"
-  optionalDependencies:
-    chokidar "^3.3.0"
+    commander "^5.1.0"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -1108,26 +1006,18 @@ open@^6.3.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimist@~0.6:
-  version "0.6.1"
-  resolved "http://npm.tuzhanai.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
-
 parseurl@~1.3.3:
   version "1.3.3"
   resolved "http://npm.tuzhanai.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-pascal-case@^3.1.1:
-  version "3.1.1"
-  resolved "http://npm.tuzhanai.com/pascal-case/-/pascal-case-3.1.1.tgz#5ac1975133ed619281e88920973d2cd1f279de5f"
-  integrity sha1-WsGXUTPtYZKB6Ikglz0s0fJ53l8=
+pascal-case@^3.1.2:
+  version "3.1.2"
+  resolved "http://npm.tuzhanai.com/pascal-case/-/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
+  integrity sha1-tI4O8rmOIF58Ha50fQsVCCN2YOs=
   dependencies:
-    no-case "^3.0.3"
-    tslib "^1.10.0"
+    no-case "^3.0.4"
+    tslib "^2.0.3"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -1149,10 +1039,10 @@ path-parse@^1.0.6:
   resolved "http://npm.tuzhanai.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
-picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.0.7:
-  version "2.2.2"
-  resolved "http://npm.tuzhanai.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
-  integrity sha1-IfMz6ba46v8CRo9RRupAbTRfTa0=
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
+  version "2.2.3"
+  resolved "http://npm.tuzhanai.com/picomatch/-/picomatch-2.2.3.tgz#465547f359ccc206d3c48e46a1bcb89bf7ee619d"
+  integrity sha1-RlVH81nMwgbTxI5Goby4m/fuYZ0=
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -1160,33 +1050,23 @@ pretty-hrtime@^1.0.3:
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
 prismjs@^1.17.1:
-  version "1.20.0"
-  resolved "http://npm.tuzhanai.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha1-m2hfxICjUU7nGY6sajv1AkMZ/wM=
+  version "1.23.0"
+  resolved "http://npm.tuzhanai.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha1-07OWf31yRAaQSXZSqdQP8EYGfzM=
   optionalDependencies:
     clipboard "^2.0.0"
-
-punycode.js@^2.1.0:
-  version "2.1.0"
-  resolved "http://npm.tuzhanai.com/punycode.js/-/punycode.js-2.1.0.tgz#f3937f7a914152c2dc17e9c280a2cf86a26b7cda"
-  integrity sha1-85N/epFBUsLcF+nCgKLPhqJrfNo=
 
 range-parser@~1.2.1:
   version "1.2.1"
   resolved "http://npm.tuzhanai.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
-readdirp@~3.3.0:
-  version "3.3.0"
-  resolved "http://npm.tuzhanai.com/readdirp/-/readdirp-3.3.0.tgz#984458d13a1e42e2e9f5841b129e162f369aff17"
-  integrity sha1-mERY0ToeQuLp9YQbEp4WLzaa/xc=
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "http://npm.tuzhanai.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4=
   dependencies:
-    picomatch "^2.0.7"
-
-repeat-string@^1.5.2:
-  version "1.6.1"
-  resolved "http://npm.tuzhanai.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
-  integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
+    picomatch "^2.2.1"
 
 resolve-url@^0.2.1:
   version "0.2.1"
@@ -1194,40 +1074,22 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.11.0, resolve@^1.8.1:
-  version "1.16.1"
-  resolved "http://npm.tuzhanai.com/resolve/-/resolve-1.16.1.tgz#49fac5d8bacf1fd53f200fa51247ae736175832c"
-  integrity sha1-SfrF2LrPH9U/IA+lEkeuc2F1gyw=
+  version "1.20.0"
+  resolved "http://npm.tuzhanai.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
+  integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
   dependencies:
+    is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
 rfdc@^1.1.4:
-  version "1.1.4"
-  resolved "http://npm.tuzhanai.com/rfdc/-/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"
-  integrity sha1-unLME2egzNnPgahws7WL060H+MI=
-
-right-align@^0.1.1:
-  version "0.1.3"
-  resolved "http://npm.tuzhanai.com/right-align/-/right-align-0.1.3.tgz#61339b722fe6a3515689210d24e14c96148613ef"
-  integrity sha1-YTObci/mo1FWiSENJOFMlhSGE+8=
-  dependencies:
-    align-text "^0.1.1"
-
-rimraf@~2.4.0:
-  version "2.4.5"
-  resolved "http://npm.tuzhanai.com/rimraf/-/rimraf-2.4.5.tgz#ee710ce5d93a8fdb856fb5ea8ff0e2d75934b2da"
-  integrity sha1-7nEM5dk6j9uFb7Xqj/Di11k0sto=
-  dependencies:
-    glob "^6.0.1"
+  version "1.3.0"
+  resolved "http://npm.tuzhanai.com/rfdc/-/rfdc-1.3.0.tgz#d0b7c441ab2720d05dc4cf26e01c89631d9da08b"
+  integrity sha1-0LfEQasnINBdxM8m4ByJYx2doIs=
 
 safe-buffer@5.1.2:
   version "5.1.2"
   resolved "http://npm.tuzhanai.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
-
-safe-json-stringify@~1:
-  version "1.2.0"
-  resolved "http://npm.tuzhanai.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
-  integrity sha512-gH8eh2nZudPQO6TytOvbxnuhYBOvDBBLW52tz5q6X58lJcd/tkmqFR+5Z9adS8aJtURSXWThWy/xJtJwixErvg==
 
 safer-buffer@^2.1.2:
   version "2.1.2"
@@ -1350,11 +1212,6 @@ source-map@^0.7.3:
   resolved "http://npm.tuzhanai.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
-source-map@~0.5.1:
-  version "0.5.7"
-  resolved "http://npm.tuzhanai.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
-  integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
-
 sprintf-js@^1.0.3:
   version "1.1.2"
   resolved "http://npm.tuzhanai.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
@@ -1423,26 +1280,11 @@ supports-color@^5.3.0:
     has-flag "^3.0.0"
 
 supports-color@^7.1.0:
-  version "7.1.0"
-  resolved "http://npm.tuzhanai.com/supports-color/-/supports-color-7.1.0.tgz#68e32591df73e25ad1c4b49108a2ec507962bfd1"
-  integrity sha1-aOMlkd9z4lrRxLSRCKLsUHliv9E=
+  version "7.2.0"
+  resolved "http://npm.tuzhanai.com/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
   dependencies:
     has-flag "^4.0.0"
-
-swig-extras@0.0.1:
-  version "0.0.1"
-  resolved "http://npm.tuzhanai.com/swig-extras/-/swig-extras-0.0.1.tgz#b503fede372ab9c24c6ac68caf656bcef1872328"
-  integrity sha1-tQP+3jcqucJMasaMr2VrzvGHIyg=
-  dependencies:
-    markdown "~0.5.0"
-
-swig-templates@^2.0.3:
-  version "2.0.3"
-  resolved "http://npm.tuzhanai.com/swig-templates/-/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
-  integrity sha512-QojPTuZWdpznSZWZDB63/grsZuDwT/7geMeGlftbJXDoYBIZEnTcKvz4iwYDv3SwfPX9/B4RtGRSXNnm3S2wwg==
-  dependencies:
-    optimist "~0.6"
-    uglify-js "2.6.0"
 
 text-table@^0.2.0:
   version "0.2.0"
@@ -1481,25 +1323,10 @@ toidentifier@1.0.0:
   resolved "http://npm.tuzhanai.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-tslib@^1.10.0:
-  version "1.11.1"
-  resolved "http://npm.tuzhanai.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
-  integrity sha1-6xXRKIJ/vuKEFUnhcfRe0zisfjU=
-
-uglify-js@2.6.0:
-  version "2.6.0"
-  resolved "http://npm.tuzhanai.com/uglify-js/-/uglify-js-2.6.0.tgz#25eaa1cc3550e39410ceefafd1cfbb6b6d15f001"
-  integrity sha1-JeqhzDVQ45QQzu+v0c+7a20V8AE=
-  dependencies:
-    async "~0.2.6"
-    source-map "~0.5.1"
-    uglify-to-browserify "~1.0.0"
-    yargs "~3.10.0"
-
-uglify-to-browserify@~1.0.0:
-  version "1.0.2"
-  resolved "http://npm.tuzhanai.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
-  integrity sha1-bgkk1r2mta/jSeOabWMoUKD4grc=
+tslib@^2.0.3:
+  version "2.2.0"
+  resolved "http://npm.tuzhanai.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
+  integrity sha1-+yxHWXfjXiQTEe3iaTzuHsZpj1w=
 
 unpipe@~1.0.0:
   version "1.0.0"
@@ -1526,10 +1353,10 @@ vary@~1.1.2:
   resolved "http://npm.tuzhanai.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-warehouse@^3.0.1:
-  version "3.0.2"
-  resolved "http://npm.tuzhanai.com/warehouse/-/warehouse-3.0.2.tgz#4c02f6fcf2b33130656f3d033c44bf5673af0433"
-  integrity sha1-TAL2/PKzMTBlbz0DPES/VnOvBDM=
+warehouse@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.tuzhanai.com/warehouse/-/warehouse-4.0.0.tgz#45832bc43e1fd323bd9d3c86b2761430ba0d1e7b"
+  integrity sha1-RYMrxD4f0yO9nTyGsnYUMLoNHns=
   dependencies:
     JSONStream "^1.0.7"
     bluebird "^3.2.2"
@@ -1552,32 +1379,7 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-window-size@0.1.0:
-  version "0.1.0"
-  resolved "http://npm.tuzhanai.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
-  integrity sha1-VDjNLqk7IC76Ohn+iIeu58lPnJ0=
-
-wordwrap@0.0.2:
-  version "0.0.2"
-  resolved "http://npm.tuzhanai.com/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
-  integrity sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8=
-
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "http://npm.tuzhanai.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
-
 wrappy@1:
   version "1.0.2"
   resolved "http://npm.tuzhanai.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-
-yargs@~3.10.0:
-  version "3.10.0"
-  resolved "http://npm.tuzhanai.com/yargs/-/yargs-3.10.0.tgz#f7ee7bd857dd7c1d2d38c0e74efbd681d1431fd1"
-  integrity sha1-9+572FfdfB0tOMDnTvvWgdFDH9E=
-  dependencies:
-    camelcase "^1.0.2"
-    cliui "^2.1.0"
-    decamelize "^1.0.0"
-    window-size "0.1.0"
