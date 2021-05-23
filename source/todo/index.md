@@ -9,8 +9,12 @@ date: 2021-04-19 16:14:46
 * Hooks
 * fiber
 
-##  理解行能优化（Chrome DevTools performance）
+##  理解行能优化（Chrome DevTools）
 
+* Lighthouse √
+* Performance工具
+* Memory工具
+* performance对象
 
 ##  superapp-看房dashboard
 * 户型+雷达图
@@ -29,4 +33,4 @@ date: 2021-04-19 16:14:46
 ## python
 
 
-  [1]: http://my-bucket-hexo-1258538316.cos-website.ap-guangzhou.myqcloud.com/2021/05/14/%E7%AE%97%E6%B3%95%E4%B9%8B%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/
+  [1]: https://jianghong.site/2021/05/14/%E7%AE%97%E6%B3%95%E4%B9%8B%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/

@@ -1,5 +1,5 @@
 {
   "components": {
-    "myWebsite": "/home/abc/.serverless/components/registry/npm/@serverless/tencent-website@1.2.24/node_modules/@serverless/tencent-website"
+    "myWebsite": "C:\\Users\\29270\\.serverless\\components\\registry\\npm\\@serverless\\tencent-website@1.2.24\\node_modules\\@serverless\\tencent-website"
   }
 }
