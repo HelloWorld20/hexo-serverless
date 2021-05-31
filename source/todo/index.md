@@ -16,15 +16,30 @@ date: 2021-04-19 16:14:46
 * Memory工具
 * performance对象
 
+## Node
+
+* cluster模式
+
+## Typescript
+
+## webpack
+
+* 自定义loader
+* 自定义plugin
+* 试试联邦模块
+
+## 前端算法，查漏补缺
+
+* [动态规划√][1]
+* 递归
 ##  superapp-看房dashboard
 * 户型+雷达图
 * 询问试配置放到每个包里
 * 把server端跑起来
 
-## 前端算法，查漏补缺
+## 博客
 
-* [动态规划√][1]
-* 红黑树
+* GitHub Action实现merge/commit到master自动发布线上
 
 ## monorepo总结笔记
 

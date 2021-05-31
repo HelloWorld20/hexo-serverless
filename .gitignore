@@ -7,3 +7,4 @@ public/
 .deploy*/
 source/_posts/
 .env_temp
+.serverless/Template.json
