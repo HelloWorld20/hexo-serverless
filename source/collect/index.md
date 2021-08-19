@@ -10,7 +10,9 @@ tags:
 # 学习
 
 [Chrome devtools官方说明书](https://developer.chrome.com/docs/devtools/)
+[React技术揭秘-目前思路最清晰版本](https://react.iamkasong.com/)
 
+[React源码解析](https://react.jokcy.me/)
 
 # 工具
 
