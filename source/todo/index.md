@@ -18,6 +18,10 @@ date: 2021-04-19 16:14:46
 - Hooks
 - fiber
 
+# 设计模式
+
+- 设计模式在实际工作中的体现
+
 # 理解行能优化（Chrome DevTools）
 
 - [Lighthouse][2] √
