@@ -10,6 +10,7 @@ tags:
 # 学习
 
 [Chrome devtools官方说明书](https://developer.chrome.com/docs/devtools/)
+[前端瓶子君-一个很深入的面试题汇总](https://www.pzijun.cn/)
 
 
 # 工具
