@@ -10,6 +10,7 @@ tags:
 # 学习
 
 [Chrome devtools官方说明书](https://developer.chrome.com/docs/devtools/)
+[前端瓶子君-一个很深入的面试题汇总](https://www.pzijun.cn/)
 [React技术揭秘-目前思路最清晰版本](https://react.iamkasong.com/)
 
 [React源码解析](https://react.jokcy.me/)
