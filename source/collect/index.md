@@ -18,6 +18,14 @@ tags:
 
 [chromium历史版本](https://vikyd.github.io/download-chromium-history-version)
 
+[webassembly在线studio](https://webassembly.studio/)
+
+[免费天气接口（丰富）](https://open-meteo.com/en/docs)
+
+[开源智能家居管理](https://www.home-assistant.io/)
+
+[每日更新github host](http://blog.yoqi.me/lyq/16489.html)
+
 # 好玩
 
 [低轨道卫星可视化展示](https://platform.leolabs.space/visualization)
