@@ -30,3 +30,9 @@ tags:
 # 好玩
 
 [低轨道卫星可视化展示](https://platform.leolabs.space/visualization)
+
+[电力设施图](https://openinframap.org/)
+
+[css测验](https://css-speedrun.netlify.app/)
+
+[全球地形3d打印](https://jthatch.com/)
