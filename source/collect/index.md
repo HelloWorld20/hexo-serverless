@@ -15,6 +15,10 @@ tags:
 
 [React源码解析](https://react.jokcy.me/)
 
+# 文章
+
+[Alloyteam Web前端大会-面向亿万级用户的Web同构直出](https://wetest.qq.com/labs/348)
+
 # 工具
 
 [chromium历史版本](https://vikyd.github.io/download-chromium-history-version)
@@ -26,6 +30,8 @@ tags:
 [开源智能家居管理](https://www.home-assistant.io/)
 
 [每日更新github host](http://blog.yoqi.me/lyq/16489.html)
+
+[分析webpack bundle依赖关系](http://webpack.github.io/analyse)
 
 # 好玩
 

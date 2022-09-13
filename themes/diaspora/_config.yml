@@ -4,7 +4,7 @@ menu:
   标签: /tags
   归档: /archives
   收藏: /collect
-  todo: /todo
+  # todo: /todo
   关于: /about
 
 # 是否显示目录
