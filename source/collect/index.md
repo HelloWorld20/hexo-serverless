@@ -33,6 +33,8 @@ tags:
 
 [分析webpack bundle依赖关系](http://webpack.github.io/analyse)
 
+[每月免费150G流量的分布式文件存储服务](https://www.storj.io/)
+
 # 好玩
 
 [低轨道卫星可视化展示](https://platform.leolabs.space/visualization)
@@ -42,3 +44,9 @@ tags:
 [css测验](https://css-speedrun.netlify.app/)
 
 [全球地形3d打印](https://jthatch.com/)
+
+[分析github仓库或用户](https://ossinsight.io/)
+
+[法官形象的ai回答问题](https://ask-rbg.ai/)
+
+[有趣网站集合](https://neal.fun/)

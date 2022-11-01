@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo generate && sls",
     "server": "hexo server",
-    "fetch": "rimraf ./source/_posts && git clone git@github.com:HelloWorld20/article.git ./source/_posts"
+    "fetch": "rimraf ./source/_posts && git clone git@github.com:HelloWorld20/article.git ./source/_posts && cp -r ./source/_posts/assets ./source/assets"
   },
   "hexo": {
     "version": "5.4.2"
