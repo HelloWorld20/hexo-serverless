@@ -7,13 +7,14 @@
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo generate && sls",
     "server": "hexo server",
-    "fetch": "rimraf ./source/_posts && git clone git@github.com:HelloWorld20/article.git ./source/_posts && cp -r ./source/_posts/assets ./source/assets"
+    "fetch": "rimraf ./source/_posts && git clone git@github.com:HelloWorld20/article.git ./source/_posts"
   },
   "hexo": {
     "version": "5.4.2"
   },
   "dependencies": {
-    "hexo": "^5.4.0",
+    "hexo": "^5.4.2",
+    "hexo-cli": "^4.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -25,6 +26,6 @@
     "hexo-server": "^1.0.0"
   },
   "devDependencies": {
-    "serverless": "^2.46.0"
+    "serverless": "^2.72.3"
   }
 }
