@@ -50,3 +50,15 @@ tags:
 [法官形象的ai回答问题](https://ask-rbg.ai/)
 
 [有趣网站集合](https://neal.fun/)
+
+# 数据
+
+[国家统计局](http://www.stats.gov.cn/)
+
+# AI
+
+[AI导航](https://ai.tboxn.com/)
+
+[免梯子体验好的chatGPT](https://gpta.aiplan.top/)
+
+[AI法律助手](https://law-cn-ai.vercel.app/)

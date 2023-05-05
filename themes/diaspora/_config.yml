@@ -11,7 +11,7 @@ menu:
 TOC: true
 
 # 是否自动播放音乐
-autoplay: true
+autoplay: false
 
 # 默认音乐（随机播放）
 mp3:
