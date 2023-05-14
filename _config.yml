@@ -9,13 +9,13 @@ description: weijianghong's hexo personal blog. still under construction.
 keywords:
 author: Leon.W
 language: zh-CN
-timezone: ""
+timezone: "Asia/Hong_Kong"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://my-bucket-hexo-1258538316.cos-website.ap-guangzhou.myqcloud.com/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: "_posts/private/*"
+skip_render: "_posts/private/*.md"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -86,8 +86,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+# include:
+# exclude:
 ignore:
 
 # Extensions

@@ -11,7 +11,7 @@ menu:
 TOC: true
 
 # 是否自动播放音乐
-autoplay: true
+autoplay: false
 
 # 默认音乐（随机播放）
 mp3:
@@ -170,7 +170,7 @@ gitalk:
   distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: Weijianghong
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics: UA-175169156-1
